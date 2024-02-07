@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* color */
+    --bg-white: #fff;
+    --text-black: #000;
+    --text-dark: #111010;
+
+    /* fonts */
+
+   --primary-font: 'Open Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: var(--bg-white);
+   font-family: var(--primary-font);
+}
+
+ul,
+ol {
+    text-decoration: none;
+}
+.main-btn{
+    background-color: var(--text-black);
+    color:var(--bg-white);
+    padding: .5375rem 1.674rem;
+    text-transform: capitalize;
+    font-size: 1.324rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: var(--primary-font);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.main-btn:hover{
+    color:var(--bg-white);
+    background: var(--text-dark);
+}
+section {
+    padding: 50px 0;
+}
+
+/* navbar css */
+
+.header-wrapper img {
+    width: 3.76rem;
+    object-fit: cover;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.header-wrapper .nav-item {
+    margin: 0 10px;
+}
+
+.header-wrapper .nav-item .nav-link {
+    color: var(--text-dark);
+    font-size: 1.322rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family: var(--primary-font);
+}
+
+.header-wrapper .navbar-toggler {
+    border: 0;
+}
+
+.header-wrapper .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.header-scrolled {
+    position: fixed;
+    width: 100%;
+    background-color: var(--bg-white);
+    color: var(--text-dark);
+    height: 85px;
+    margin-top: 0;
+    left: 0;
+    top: 0;
+    background-color: var(--bg-white);
+    box-shadow: 0 4px 6px 0 rgba(12, 0, 46, .05);
+}
+
+/* banner css */
+
+.banner-wrapper{
+    padding-top: 100px;
+}
+
+.banner-wrapper h3 {
+    font-size: 36px;
+    color: var(--text-dark);
+    font-family: var(--primary-font);
+    margin-bottom: 5px;
+    font-weight: 600;
+    letter-spacing: 0;
+}
+.banner-wrapper h1{
+    font-size: 57px;
+    font-weight: 700;
+    font-family: var(--primary-font);
+    color: var(--text-dark);
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+.banner-wrapper p{
+    font-size: 1.123rem;
+    color:var(--text-dark);
+    font-weight: 500;
+}
+.banner-wrapper img{
+    width: 22rem;
+    margin-left: 5rem;
+}
